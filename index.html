@@ -3,20 +3,44 @@
     <head>
         <title>Joe Baragona Portfolio</title>
         <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" type="text/css" href="normalize.css">
         <link rel="stylesheet" type="text/css" href="style.css">
+        <link href="https://fonts.googleapis.com/css?family=Oswald|Raleway" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Nothing+You+Could+Do" rel="stylesheet">
     </head>
     <body>
-        <nav role="navigation">Nav <a href="index2.html">(Portfolio Page)</a></nav>
+        <nav role="navigation">
+            <span>Joe Baragona</span>
+            <ul class="tabs">
+                <li><a href ="index2.html">Portfolo</li></a>
+                <li><a href="https://github.com/jrb5004">GitHub</li></a>
+                <li><a href="#contact">Contact</li></a>
+                </ul>
+            <img class="hamburger" src="hamburger.png" alt="navigation icon"> 
+        </nav>
         <main>
-            <section>
-                <h1>Headline Part 1</h1>
-                <div role="image">Image</div>
-                <h1>Headline Part 2</h1>
+            <ul class="dropdown">
+                <li><a href ="index2.html">Portfolo</li></a>
+                <li><a href="https://github.com/jrb5004">GitHub</li></a>
+                <li><a href="#contact">Contact</li></a>
+            </ul>
+            <section class="intro">
+                <h1 class="headline">Oh, hi there!</h1>
+                <div role="image"><img class="headshot" src="headshot.png" alt="cartoon headshot"></div>
+                <h1 class="headline part-two">My name's Joe and I'm a front end web developer located in sunny San Diego, California.</h1>
             </section>  
-            <section>
-                <p>Bio</p>
+            <section class="bio">
+                <p class="bio-part-one">As a web developer enrolled in Thinkful's Full Stack program, I'm developing proficiency in all essential front end engineering technologies.  HTML, CSS, Javascript, JQuery, and React are among my areas of expertise.</p>  
+                <p class="bio-part-two">After spending years on the business side of web technology, my thirst for creativity lead me to jump the fence over to the engineering side of the business.  I'm passionate about bringing ideas and designs to life on web pages with precision and efficiency.</p>
+                <p class="bio-part-three">As a lifelong sports junkie, I have a competitive edge and strive to be an important part of a winning team.  Please enjoy perusing my portfolio and feel free to contact me via email or LinkedIn!</p>
             </section>
         </main>
-        <footer role="contact-info">contact info</footer>
+        <footer role="contact-info" id="contact">
+                <span>Contact me:</span>
+                <a href="mailto:jrb5004@gmail.com"><img class="contact" src="emailicon.png" alt="email icon"></a>
+                <a href="https://www.linkedin.com/in/joe-baragona-1ab37969/"><img class="contact" src="linkedin.jpg" alt="linkedin icon"></a>
+        </footer>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script type="text/javascript" src="index.js"></script>
     </body>
 </html>
