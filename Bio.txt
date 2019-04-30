@@ -1,0 +1,14 @@
+Headline: 
+Oh, hi there!  My name is Joe and I'm a front end web developer located in sunny San Diego, California.
+
+Bio:
+As a web developer currently enrolled in Thinkful's Full Stack program, I'm developing proficiency in all essential front end engineering technologies.
+HTML, CSS, Javascript, JQuery, and React are among my areas of expertise.  I'm passionate about bringing ideas and designs to life on web pages with precision and efficiency.
+After spending years on the business side of web technology, my thirst for creativity lead me to jump the fence over to the engineering side of the business.
+As a lifelong sports junkie, I have a competitive edge and strive to be an important part of a winning team.  
+Please enjoy perusing my portfolio and feel free to contact me via email or LinkedIn!
+
+Projects:
+Title: Penn State Football Trivia Quiz App
+Description: Test your knowledge of all things Nittany Lions football with this interactive trivia app.  Feedback is provided upon answering each question and your final score will be posted to the scoreboard following the last question.
+Technologies Used: HTML, CSS, Javascript, JQuery
