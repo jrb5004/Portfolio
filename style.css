@@ -18,6 +18,7 @@ main {
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
+    min-height: 100vh;
 }
 
 nav {
@@ -107,6 +108,7 @@ footer {
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    position: absolute;
 }
 
 

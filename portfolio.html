@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Joe Baragona Portfolio</title>
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" type="text/css" href="normalize.css">
+        <link href="https://fonts.googleapis.com/css?family=Oswald|Raleway" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Nothing+You+Could+Do" rel="stylesheet">
+    </head>
+    <body>
+        <nav role="navigation">
+            <a href="index.html"><span>Joe Baragona</span></a>
+            <ul class="tabs">
+                <li><a href ="index.html">Home</a></li>
+                <li><a href="https://github.com/jrb5004">GitHub</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <img class="hamburger" src="images/hamburger.png" alt="navigation icon"> 
+            <ul class="dropdown">
+                <li><a class="nav-link" href ="index.html">Home</li></a>
+                <li><a class="nav-link" href="https://github.com/jrb5004">GitHub</li></a>
+                <li><a class="nav-link" href="#contact">Contact</li></a>
+            </ul>
+        </nav>
+        <main class="index-two">
+            <h1 class="portfolio">Portfolio</h1>
+            <p class="portfolio-text">Enjoy checking out a sampling of my projects below.  Feel free to <a class="email" href="mailto:jrb5004@gmail.com">drop me a line</a> and let me know what you think.</p>
+            <section class="project">
+                <h2>San Diego County Dog Rescue Classifieds</h2>
+                <div class="screenshot"><img src="images/screenshot1.PNG" alt="app screenshot"></div>
+                <p class="project-info">A full stack app for the large community of dog lovers in the San Diego area to browse listings of adoptable dogs in their region, contact their current caretakers about adoption opportunities, and post/edit their own listings.</p>
+                <p class="project-info">Technologies used in this project indclude Javascript, React, Node.js, Express, PostreSQL, and CSS.</p>
+                <a href="https://sd-dog-rescue.jrb5004.now.sh" target="_blank"><button class="project-button">Try It</button></a>
+                <a href="https://github.com/jrb5004/sd-dog-rescue-classifieds" target="_blank"><button class="project-button">View Code (client)</button></a>
+                <a href="https://github.com/jrb5004/sd-dog-rescue-classifieds-api" target="_blank"><button class="project-button">View Code (server)</button></a>
+            </section>
+            <section class="project">
+                <h2>The Cocktail Cookbook</h2>
+                <div class="screenshot"><img src="images/homescreenshot.PNG" alt="app screenshot"></div>
+                <p class="project-info">A full stack app for professional mixologists/bartenders and at-home entertainers to access a database of cocktail recipes organized by category, add new recipes to the collection, and edit/improve existing recipes.</p>
+                <p class="project-info">Technologies used in this project indclude Javascript, React, Node.js, Express, PostreSQL, and CSS.</p>
+                <a href="https://cocktail-cookbook.jrb5004.now.sh" target="_blank"><button class="project-button">Try It</button></a>
+                <a href="https://github.com/jrb5004/the-cocktail-cookbook" target="_blank"><button class="project-button">View Code (client)</button></a>
+                <a href="https://github.com/jrb5004/cocktail-cookbook-api" target="_blank"><button class="project-button">View Code (server)</button></a>
+            </section>
+            <section class="project">
+                <h2>The College Hunter</h2>
+                <div class="screenshot"><img src="images/collegehunter.PNG" alt="app screenshot"></div>
+                <p class="project-info">An app allowing prospective college students to research and compare 4 year colleges in their desired region.  Data on admissions requirements, tuition rates, and average graduate salaries provided for all schools.</p>
+                <p class="project-info">Technologies used in this project indclude HTML, CSS, Javascript, and JQuery.  Data and maps are populated via API calls to the Government College Scorecard API and Google Maps API.</p>
+                <a href="https://jrb5004.github.io/college-hunter-app/" target="_blank"><button class="project-button">Try It</button></a>
+                <a href="https://github.com/jrb5004/college-hunter-app" target="_blank"><button class="project-button">View Code</button></a>
+            </section>
+            <section class="project">
+                <h2>Penn State Football Trivia App</h2>
+                <div class="screenshot"><img src="images/pennstate.jpg" alt="app screenshot"></div>
+                <p class="project-info">Test your knowledge of all things Nittany Lions football with this interactive trivia app.  Feedback is provided upon answering each question and your final score will be posted to the scoreboard following the last question.</p>
+                <p class="project-info">Technologies used in this project indclude HTML, CSS, Javascript, and JQuery.</p>
+                <a href="https://jrb5004.github.io/Penn-State-Quiz-App-Final/" target="_blank"><button class="project-button">Try It</button></a>
+                <a href="https://github.com/jrb5004/Penn-State-Quiz-App-Final" target="_blank"><button class="project-button">View Code</button></a>
+            </section>
+        </main>
+        <footer role="contact-info" id="contact">
+                <span>Contact me:</span>
+                <a href="mailto:jrb5004@gmail.com"><img class="contact" src="images/emailicon.png" alt="email icon"></a>
+                <a href="https://www.linkedin.com/in/joe-baragona-1ab37969/" target="_blank"><img class="contact" src="images/linkedin.jpg" alt="linkedin icon"></a>
+        </footer>
+            <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+            <script type="text/javascript" src="index.js"></script>
+    </body>
+</html>
