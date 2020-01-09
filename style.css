@@ -2,25 +2,6 @@
     box-sizing: border-box;
 }
 
-
-body {
-    font-size: 25px;
-    text-align: center;
-    font-family: 'Raleway', sans-serif;
-    color: rgb(51, 5, 58);
-    height: 100%;
-    overflow-x: hidden;
-}
-
-main {
-    margin-top: 40px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: center;
-    min-height: 100vh;
-}
-
 nav {
     position: fixed;
     background-color: rgb(204, 133, 0);
@@ -34,6 +15,7 @@ nav {
     justify-content: space-evenly;
     align-items: center;
     white-space: nowrap;
+
 }
 
 nav img {
@@ -42,6 +24,7 @@ nav img {
 
 nav span {
     font-family: 'Nothing You Could Do', cursive;
+    font-size: 32px;
 }
 
 nav a {
@@ -81,42 +64,121 @@ nav a {
     color: rgb(204, 133, 0);
 }
 
-.headline {
+
+body {
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    color: rgb(51, 5, 58);
+    height: 100%;
+    overflow-x: hidden;
+}
+
+main {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.top-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.middle-wrapper, .bottom-wrapper {
+    max-width: 90%;
+}
+
+.bio p {
+    text-align: left;
+    line-height: 1.5;
+    font-size: 16px;
+    padding: 0 19px;
+    }
+
+.techs-list, .contact-list {
+    list-style: none;
+    margin: 10% auto;
+}
+
+.contact-list li {
+    display: inline-block;
+}
+
+/*
+.techs-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 3% auto 10% auto;
+    overflow: auto;
+    background-color: rgb(216, 197, 219);
+    border-radius: 3px;
+    border: 5px ridge rgb(204, 133, 0);
+    box-shadow: 10px 10px 13px 0px rgb(51, 5, 58);
+    list-style: none;
+}  */
+
+hr {
+    border-top: 4px solid rgb(204, 133, 0);
+    box-shadow: 2px 2px 4px 0px rgb(51, 5, 58);
+    width: 90%;
+    border-radius: 10px;
+  }
+
+.techs-list::-webkit-scrollbar {
+    width: 100%;
+  }
+
+.techs-list::-webkit-scrollbar-track {
+    background-color: rgb(51, 5, 58);
+    box-shadow: 10px 10px 13px 0px rgb(51, 5, 58);
+    border: 4px solid transparent;
+    background-clip: content-box; 
+    border-radius: 10px;
+  }
+
+  .techs-list::-webkit-scrollbar-thumb {
+    background-color: rgb(204, 133, 0);
+    width: 15px;
+    border-radius: 10px;
+    border: 2px solid rgb(51, 5, 58);
+    padding-left: 15px;
+
+  }
+
+.tech-image {
+    height: 180px;
+    width: 180px;
+    margin: 15px;
+}
+
+
+
+.headline, .techs p, #bottom-wrapper p {
     font-size: 20px;
     line-height: 1.3;
     margin-bottom: 5%;
+    font-weight: bold;
+    text-align: center;
+}
+
+.techs p {
+    text-align: center;
+    margin-bottom: 8px;
+    font-size: 16px;
 }
 
 .part-two {
     margin-top: 5%;
     padding-right: 8%;
     padding-left: 8%;
-}
-
-div {
-    max-height: 70%;
-    max-width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-footer {
-    width: 100vw;
-    background-color: rgb(204, 133, 0);
-    border-top: 3px solid rgb(51, 5, 58);
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-}
-
-
-p {
-    text-align: left;
-    line-height: 1.5;
-    font-size: 16px;
-    padding: 0 19px;
 }
 
 .bio-part-three {
@@ -182,17 +244,7 @@ h2 {
     margin-left: auto;
 }
 
-.contact {
-    width: 30px;
-    height: 30px;
-    padding-top: 3px;
-    padding-bottom: 3px;
-    border-radius: 2px;
-    margin-left: .2rem;
-    margin-right: .2rem;
-}
-
-.contact, .hamburger {
+.hamburger {
     cursor: pointer;
 }
 
@@ -269,25 +321,23 @@ footer span {
 @media screen and (min-width: 1000px) {
     main {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: space-evenly;
         align-items: center;
         height: 100%;
     }
 
     .intro {
-        width: 50%;
+        width: 70%;
         margin: 0 3%;
     }
 
     .bio {
-        width: 50%;
-        margin: 6% 4% 7% 2%;
         border: 5px ridge rgb(204, 133, 0);
         box-shadow: 10px 10px 13px 0px rgb(51, 5, 58);
         padding-top: 1%;
         border-radius: 2%;
-        max-width: 35%;
+        width: 80%;
     }
 
     .headshot {
