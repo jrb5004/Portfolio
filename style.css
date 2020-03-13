@@ -44,6 +44,10 @@ nav span {
     font-family: 'Nothing You Could Do', cursive;
 }
 
+nav span:hover {
+    color: rgb(211, 44, 237);
+}
+
 nav a {
     text-decoration: none;
     margin-right: auto;
@@ -142,6 +146,10 @@ p {
     margin: 0 5px;
 }
 
+.portfolio-text a:hover {
+    color: rgb(51, 5, 58)
+}
+
 h2 {
     font-size: 20px;
 }
@@ -210,6 +218,10 @@ h2 {
     margin-top: 0;
     margin-bottom: 0;
     padding-right: 0;
+}
+
+.tabs li a:hover {
+    color: rgb(211, 44, 237);
 }
 
 .tabs li {
@@ -309,5 +321,3 @@ footer span {
     }
 
 }
-
-
